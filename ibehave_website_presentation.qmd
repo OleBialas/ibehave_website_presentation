@@ -20,8 +20,15 @@ date: 2025-11-28
 
 ![](team.png)
 
+::: {.notes}
+Hello everyone, we are the iBehave Open Technology Support Group or iBOTS - That is Sangeetha and me, Ole, as well as Atle and the head of our group Nicholas. And we support the researchers in the iBehave network - so, you guys - with everything related to software. If you want to learn more about the work of our group you can do so on our fancy new website which you can find at ibots-bonn.de 
+Let me give you a little overview.
+:::
 
 ## {data-background-iframe="https://ibots-bonn.de/consulting" data-background-interactive="true" data-background-opacity="1"}
+
+::: {.notes}
+:::
 
 
 ## {data-background-iframe="https://ibots-bonn.de/teaching" data-background-interactive="true" data-background-opacity="1"}
