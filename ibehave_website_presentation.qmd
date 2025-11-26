@@ -1,84 +1,39 @@
 ---
-title: A title
-subtitle: A subtitle
+title: The iBOTS Training Materials Repository
+subtitle: Sharing Knowledge on Programming and Neuroscience
 format: clean-revealjs
 author:
-  - name: Your Name
-    orcid: 0000-0000-0000-0000
-    email: alias@email.com
-    affiliations: Your Institution
-date: last-modified
+  - name: Sangeetha Nandakumar
+    email: nandakum@uni-bonn.de
+  - name: Ole Bialas
+    email: bialas@uni-bonn.de
+date: 2025-11-28
 ---
 
-## Example slide
+## The iBehave Open Technology Support
 
-### This is a subtitle
+### Improving Neuroscience Software Through Teaching and Collaboration
 
-Here we have some text that may run over several lines of the slide frame,
-depending on how long it is.
+<!-- Scroll to bottom to show our team -->
 
-- first item 
-    - A sub item
+<iframe src="https://ibots-bonn.de/team" width="100%" height="60%"></iframe>
 
-Next, we'll brief review some theme-specific components.
+Visit us at [ibots-bonn.de](ibots-bonn.de)!
 
-- Note that _all_ of the standard Reveal.js
-[features](https://quarto.org/docs/presentations/revealjs/)
-can be used with this theme, even if we don't highlight them here.
+<div style="position: absolute; bottom: 0px; right: 0px; transform: translateX(-50%); text-align: center;">
+{{< qrcode https://ibots-bonn.de width=200 height=200 >}}
+</div>
 
-## Website
-<iframe src="https://ibots-bonn.de/" ></iframe>
+## Consulting
+### Just drop us an email an we'll help you!
 
-## Additional theme classes
+<!-- Briefly advertise consulting service -->
 
-### Some extra things you can do with the clean theme
+<iframe src="https://ibots-bonn.de/consulting" width="100%" height="80%"></iframe>
 
-Special classes for emphasis
+## Teaching
+### Combining Neuroscience and Programming
 
-- `.alert` class for default emphasis, e.g. [important note]{.alert}.
-- `.fg` class for custom colour, e.g. [important note]{.fg style="--col: #e64173"}.
-- `.bg` class for custom background, e.g. [important note]{.bg style="--col: #e64173"}.
+<!-- Introduce our curriculum, establish motivatin for the learning platform -->
 
-Cross-references
-
-- `.button` class provides a Beamer-like button, e.g.
-[[Summary]{.button}](#sec-summary)
-
-## Want more?
-
-### See our longer demo slides
-
-We've deliberarely kept this template lean, to get you up and running as fast as
-possible.
-
-We provide a separate
-[demo template](https://github.com/grantmcdermott/quarto-revealjs-clean-demo),
-with more examples for integrating code, tables, figures, etc.
-
-  - See the live demo slides
-  [here](https://grantmcdermott.com/quarto-revealjs-clean-demo/template.html).
-
-## Summary {#sec-summary}
-
-### A minimalist and elegant presentation theme
-
-The Quarto reveal.js clean theme aims to be a minimalist and elegant presention
-theme. Here are some options to get you started:
-
-Add the theme to an existing project.
-
-```{.bash}
-quarto install extension grantmcdermott/quarto-revealjs-clean
-```
-
-... or, create a new project using this slide deck as a lean template.
-
-```{.bash}
-quarto use template grantmcdermott/quarto-revealjs-clean
-```
-
-... or, create a new project using the demo slide deck as a full template.
-
-```{.bash}
-quarto use template grantmcdermott/quarto-revealjs-clean-demo
-```
+<iframe src="https://ibots-bonn.de/teaching" width="100%" height="80%"></iframe>
