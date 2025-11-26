@@ -6,9 +6,9 @@
 <script src="ibehave_website_presentation_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="ibehave_website_presentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="ibehave_website_presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="ibehave_website_presentation_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="ibehave_website_presentation_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="ibehave_website_presentation_files/libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.25">
+  <meta name="generator" content="quarto-1.7.32">
 
   <meta name="author" content="Sangeetha Nandakumar">
   <meta name="author" content="Ole Bialas">
@@ -32,7 +32,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="ibehave_website_presentation_files/libs/revealjs/dist/theme/quarto-5ae9c59b2727fcd5357d4f034d95f9e0.css">
+  <link rel="stylesheet" href="ibehave_website_presentation_files/libs/revealjs/dist/theme/quarto-12873a65cf666e61daa4b3cf91a98e13.css">
   <link href="ibehave_website_presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="ibehave_website_presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="ibehave_website_presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -188,6 +188,56 @@ Ole Bialas
 <!-- Introduce our curriculum, establish motivatin for the learning platform -->
 <iframe src="https://ibots-bonn.de/teaching" width="100%" height="80%">
 </iframe>
+</section>
+<section id="getting-started-with-learning-platform" class="slide level2">
+<h2>Getting Started with Learning Platform</h2>
+<p>Let’s get started <!-- 
+GETTING STARTED:
+- "Browse Courses" button on landing page
+- Takes you directly to course list
+- No sign-up required
+--></p>
+</section>
+<section id="section" class="slide level2" data-background-iframe="https://learn.ibots-bonn.de/" data-background-interactive="true" data-background-opacity="1">
+<h2></h2>
+</section>
+<section id="bye" class="slide level2">
+<h2>Bye!</h2>
+<!-- 
+NAVIGATION ELEMENTS:
+- Home - Return to landing page
+- Courses - Browse all available courses
+- About Us - Learn about iBots
+- Join Our Mailing List - Stay updated
+- Search Bar - Search across entire website
+- Dark/Light Mode Toggle - For coding comfort
+-->
+<!-- 
+COURSE LANDING PAGE:
+- Title and brief description
+- Authors
+- Overview and credits
+- Listing of contents (units/sessions)
+- Click on specific unit or session to jump ahead
+- "Start" button - begin with first session
+-->
+<!-- 
+UNIT PAGE:
+- Accessed via sidebar or course landing page
+- Unit overview
+- Lists all sessions within the unit
+-->
+<!-- <iframe src="https://6927218ec135c321f03c348c--ibots-learning-platform.netlify.app/docs/intro_python_long/" width="100%" height="80%"></iframe> -->
+<!-- 
+SESSION PAGE:
+- Title and authors displayed
+- Open in JupyterLite - Work in browser
+- Download exercises - Work locally
+- View entire session in browser
+- Solutions hidden by default
+- Expand/Collapse All Solutions button
+- Pagination to navigate between sessions
+-->
 
 </section>
     </div>
@@ -453,14 +503,13 @@ Ole Bialas
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-          const outerScaffold = trigger.parentElement.cloneNode(true);
-          const codeEl = outerScaffold.querySelector('code');
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
             }
-          }
-          return codeEl.innerText;
+            return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

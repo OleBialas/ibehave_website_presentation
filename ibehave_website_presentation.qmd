@@ -37,3 +37,56 @@ Visit us at [ibots-bonn.de](ibots-bonn.de)!
 <!-- Introduce our curriculum, establish motivatin for the learning platform -->
 
 <iframe src="https://ibots-bonn.de/teaching" width="100%" height="80%"></iframe>
+
+## Getting Started with Learning Platform
+Let's get started
+<!-- 
+GETTING STARTED:
+- "Browse Courses" button on landing page
+- Takes you directly to course list
+- No sign-up required
+-->
+
+<!-- This is because <iframe> does not show the toc for sessions. -->
+## {data-background-iframe="https://learn.ibots-bonn.de/" data-background-interactive="true" data-background-opacity="1"}
+
+
+<!-- 
+NAVIGATION ELEMENTS:
+- Home - Return to landing page
+- Courses - Browse all available courses
+- About Us - Learn about iBots
+- Join Our Mailing List - Stay updated
+- Search Bar - Search across entire website
+- Dark/Light Mode Toggle - For coding comfort
+-->
+
+<!-- 
+COURSE LANDING PAGE:
+- Title and brief description
+- Authors
+- Overview and credits
+- Listing of contents (units/sessions)
+- Click on specific unit or session to jump ahead
+- "Start" button - begin with first session
+-->
+
+<!-- 
+UNIT PAGE:
+- Accessed via sidebar or course landing page
+- Unit overview
+- Lists all sessions within the unit
+-->
+
+<!-- 
+SESSION PAGE:
+- Title and authors displayed
+- Open in JupyterLite - Work in browser
+- Download exercises - Work locally
+- View entire session in browser
+- Solutions hidden by default
+- Expand/Collapse All Solutions button
+- Pagination to navigate between sessions
+-->
+
+## Bye!
