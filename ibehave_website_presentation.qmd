@@ -14,29 +14,18 @@ date: 2025-11-28
 
 ### Improving Neuroscience Software Through Teaching and Collaboration
 
-<!-- Scroll to bottom to show our team -->
+- We are scientists who focus on research software
+- We support researchers in the iBehave network
+- You can learn more about our group at [ibots-bonn.de](ibots-bonn.de)!
 
-<iframe src="https://ibots-bonn.de/team" width="100%" height="60%"></iframe>
+![](team.png)
 
-Visit us at [ibots-bonn.de](ibots-bonn.de)!
 
-<div style="position: absolute; bottom: 0px; right: 0px; transform: translateX(-50%); text-align: center;">
-{{< qrcode https://ibots-bonn.de width=200 height=200 >}}
-</div>
+## {data-background-iframe="https://ibots-bonn.de/consulting" data-background-interactive="true" data-background-opacity="1"}
 
-## Consulting
-### Just drop us an email an we'll help you!
 
-<!-- Briefly advertise consulting service -->
+## {data-background-iframe="https://ibots-bonn.de/teaching" data-background-interactive="true" data-background-opacity="1"}
 
-<iframe src="https://ibots-bonn.de/consulting" width="100%" height="80%"></iframe>
-
-## Teaching
-### Combining Neuroscience and Programming
-
-<!-- Introduce our curriculum, establish motivatin for the learning platform -->
-
-<iframe src="https://ibots-bonn.de/teaching" width="100%" height="80%"></iframe>
 
 ## Getting Started with Learning Platform
 Let's get started
