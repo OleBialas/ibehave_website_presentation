@@ -6,7 +6,8 @@
 <script src="ibehave_website_presentation_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="ibehave_website_presentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="ibehave_website_presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="ibehave_website_presentation_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="ibehave_website_presentation_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="ibehave_website_presentation_files/libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Sangeetha Nandakumar">
@@ -156,7 +157,13 @@ Ole Bialas
 </section>
 <section class="slide level2">
 
-<!-- Before start: serve goup website at port 1313, serve learning website (with Jupyterlite) at port 8000 -->
+<!-- #### BEFORE STARTING ####
+SERVE GROUP WEBSITE:
+hugo serve --templateMetrics --cleanDestinationDir
+
+SERVE LERNING WEBSITE:
+python -m http.server -d public 8000
+-->
 </section>
 <section id="the-ibehave-open-technology-support" class="slide level2">
 <h2>The iBehave Open Technology Support</h2>
@@ -300,8 +307,33 @@ SESSION PAGE:
           display:block!important;
       }</style></aside>
 </section>
-<section id="bye" class="slide level2">
-<h2>Bye!</h2>
+<section id="thank-you-for-your-attention" class="slide level2">
+<h2>Thank you for your Attention!</h2>
+<h3 id="we-look-forward-to-hearing-from-you">We look forward to hearing from you</h3>
+<div class="columns">
+<div class="column">
+<p><a href="learn.ibots-bonn.de">ibots-bonn.de</a> </p><div id="" class="qrcode"></div>
+<script type="text/javascript">
+(function() {
+  var script = document.currentScript;
+  var qrcode = script.previousElementSibling;
+  qrcode.qrcode = new QRCode(qrcode, {"colorDark":"#000000","colorLight":"#ffffff","height":"400","text":"https://ibots-bonn.de","width":"400"});
+  script.remove();
+})();
+</script>
+     <strong>Group Website</strong><p></p>
+</div><div class="column">
+<p><a href="learn.ibots-bonn.de">learn.ibots-bonn.de</a> </p><div id="" class="qrcode"></div>
+<script type="text/javascript">
+(function() {
+  var script = document.currentScript;
+  var qrcode = script.previousElementSibling;
+  qrcode.qrcode = new QRCode(qrcode, {"colorDark":"#000000","colorLight":"#ffffff","height":"400","text":"https://learn.ibots-bonn.de","width":"400"});
+  script.remove();
+})();
+</script>
+     <strong>Learning Website</strong><p></p>
+</div></div>
 
 </section>
     </div>

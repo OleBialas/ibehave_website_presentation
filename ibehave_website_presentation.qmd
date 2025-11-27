@@ -139,5 +139,24 @@ The cool thing here is that this does not run on some server but actually runs t
 In the future, we want to support additional ways of interacting with our materials like Google Colab or Binder so every user can choose the method they prefer.
 :::
 
+## Thank you for your Attention!
+### We look forward to hearing from you
 
-## Bye!
+:::: {.columns}
+
+::: {.column}
+[ibots-bonn.de](learn.ibots-bonn.de)
+{{< qrcode https://ibots-bonn.de width=400 height=400 >}}
+**Group Website**
+:::
+
+::: {.column}
+
+[learn.ibots-bonn.de](learn.ibots-bonn.de)
+{{< qrcode https://learn.ibots-bonn.de  width=400 height=400 >}}
+**Learning Website**
+:::
+
+::::
+
+
