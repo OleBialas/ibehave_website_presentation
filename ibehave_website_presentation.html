@@ -154,6 +154,10 @@ Ole Bialas
 
   <p class="date">November 28, 2025</p>
 </section>
+<section class="slide level2">
+
+<!-- Before start: serve goup website at port 1313, serve learning website (with Jupyterlite) at port 8000 -->
+</section>
 <section id="the-ibehave-open-technology-support" class="slide level2">
 <h2>The iBehave Open Technology Support</h2>
 <h3 id="improving-neuroscience-software-through-teaching-and-collaboration">Improving Neuroscience Software Through Teaching and Collaboration</h3>
@@ -199,7 +203,7 @@ Ole Bialas
 <p>The other thing we do is we develop and host workshops that combine general programming education with neuroscience data and applications. These workshops are online and social, focused on hands-on collaborative work. It’s very important to us that we put you in the driver’s seat so you can engage with the learning materials and practice your skills.</p>
 <p>On our website, you can get an overview of our curriculum: there are general introductions to computational tools and programming, courses on neuroscientific modalities like calclium imaging and local field potentials as well as more advanced software engineering topics like building applications or managing databases. You can also see all of our upcoming courses here on the left: For example, there is a course on data management with DataLad next Friday - if you are interested, there are still some open slots.</p>
 <p>Now I am curious: Who here in the audience has participates in one of our workshops before? Okay, and who of you of you has revisited the workshop materials after the workshop was over to look something up?</p>
-<p>We weren’t satisfied with how we archived our learning materials and made them available. While we open source all of our materials on GitHub, the repositories are focused on individual events. This means that there exist multiple versions of the same course which makes it challenging to understand what the latest version of a given course is, even for ourselves. Today we present you our solution to this challenge: the iBOTS Learning Website</p>
+<p>We weren’t satisfied with how we archived our learning materials and made them available. While we open source all of our materials on GitHub, the repositories are focused on individual events. This means that there exist multiple versions of the same course which makes it challenging to understand what the latest version of a given course is, even for ourselves. Today we present you our solution to this challenge which is our new iBOTS Learning Website</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -215,24 +219,31 @@ Ole Bialas
 <section id="introducing-the-ibots-learning-website" class="slide level2">
 <h2>Introducing: the iBOTs Learning Website</h2>
 <h3 id="self-paced-learning-and-knowledge-sharing">Self-Paced Learning and Knowledge Sharing</h3>
+<p><strong>Goals</strong></p>
 <ul>
-<li class="fragment">Share our materials with iBehave and the wider Nueroscience community</li>
-<li class="fragment">Make it easy for users to find and interact with course materials</li>
-<li class="fragment">Provide seamless and interactive exploration</li>
-<li class="fragment">Create a platform for others to share their knowledge</li>
+<li class="fragment">Highlight our materials and <strong>share</strong> them with iBehave and the wider neuroscience community</li>
+<li class="fragment">Make it easy and engaging to <strong>find</strong>, <strong>explore</strong> and <strong>use</strong> the course materials</li>
+<li class="fragment">Create a platform for <strong>others</strong> to share their knowledge</li>
 </ul>
-</section>
-<section id="getting-started-with-learning-platform" class="slide level2">
-<h2>Getting Started with Learning Platform</h2>
-<p>Let’s get started <!-- 
-GETTING STARTED:
-- "Browse Courses" button on landing page
-- Takes you directly to course list
-- No sign-up required
---></p>
+<aside class="notes">
+<p>Our goal was to create a single place to highlight all of our course materials and share them with the iBehave researchers but also with the neuroscience community in general because we think these materials are good and we want everyone to profit from them.</p>
+<p>We wanted to make it easy for you as a user to find course materials that interest you, explore interactively and download them to use them on your own machine.</p>
+<p>And then finally, in the future, we want to turn this site into a proper learning platform that helps others to share their knwoledge as well. So if you have or are developing learning materials that you think deserve more visibility please get in touch with us.</p>
+<p>And with that I’m gonna hand the mic over to Sangeetha who is going to give a tour of our site.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <!-- This is because <iframe> does not show the toc for sessions. -->
 </section>
-<section id="section-2" class="slide level2" data-background-iframe="https://learn.ibots-bonn.de/" data-background-interactive="true" data-background-opacity="1">
+<section id="section-2" class="slide level2" data-background-iframe="http://127.0.0.1:8000" data-background-interactive="true" data-background-opacity="1">
 <h2></h2>
 <!-- 
 NAVIGATION ELEMENTS:
@@ -268,6 +279,26 @@ SESSION PAGE:
 - Expand/Collapse All Solutions button
 - Pagination to navigate between sessions
 -->
+</section>
+<section id="section-3" class="slide level2" data-background-iframe="http://127.0.0.1:8000/docs/intro_python_long/" data-background-interactive="true" data-background-opacity="1">
+<h2></h2>
+<aside class="notes">
+<p>Okay so let’s say you want to do one of our courses for example the Intro to Python for Scientists.</p>
+<p>Currently, there are two different ways of doing this. Option 1 is to download the materials and run them on your own machine. For this, you have to install the computational environment that contains the software dependencies required for the course. If you go to the landing page of the course, you’ll see an Installation section with instructions on setting up the environment. We currently support two package managers, pixi and conda - I’m gonna choose pixi because its modern and fast. If you are not familar with these tools, we have lessons on how to use them as well!</p>
+<p>You click here to download the pixi.toml file that contains a comprehensive description of the environment and run this command to install and activate it. Once you have the environment you can simply open a lesson and click the “Download Exercises” button at the top of the page. Next, you just need to open the notebook in your editor, select the installed environment and start coding.</p>
+<p>If you want to do the lessons without doing any setup we offer an alternative way. You can click the “Open in JupyterLite” button to open and interactive notebook where you can write and execute code. The cool thing here is that this does not run on some server but actually runs the code pon your machine in the browser, powered by a technology called WebAssembly.</p>
+<p>In the future, we want to support additional ways of interacting with our materials like Google Colab or Binder so every user can choose the method they prefer.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="bye" class="slide level2">
 <h2>Bye!</h2>
