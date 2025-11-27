@@ -45,9 +45,15 @@ Okay, and who of you of you has revisited the workshop materials after the works
 We weren't satisfied with how we archived our learning materials and made them available. While we open source all of our materials on GitHub, the repositories are focused on individual events. This means that there exist multiple versions of the same course which makes it challenging to understand what the latest version of a given course is, even for ourselves. Today we present you our solution to this challenge: the iBOTS Learning Website
 :::
 
-## The iBOTs Learning Website
-### A Place to Learn and Share Knowledge
+## Introducing: the iBOTs Learning Website
+### Self-Paced Learning and Knowledge Sharing
 
+::: {.incremental}
+- Share our materials with iBehave and the wider neuroscience community
+- Make it easy for users to find and interact with course materials
+- Provide seamless and interactive exploration
+- Create a platform for others to share their knowledge
+:::
 
 ## Getting Started with Learning Platform
 Let's get started
