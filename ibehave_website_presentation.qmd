@@ -61,43 +61,36 @@ GETTING STARTED:
 <!-- This is because <iframe> does not show the toc for sessions. -->
 ## {data-background-iframe="https://learn.ibots-bonn.de/" data-background-interactive="true" data-background-opacity="1"}
 
+## User Experience and Accessibility
 
-<!-- 
-NAVIGATION ELEMENTS:
-- Home - Return to landing page
-- Courses - Browse all available courses
-- About Us - Learn about iBots
-- Join Our Mailing List - Stay updated
-- Search Bar - Search across entire website
-- Dark/Light Mode Toggle - For coding comfort
--->
+### Dark Mode Support
+### Mobile and Tablet Support
 
-<!-- 
-COURSE LANDING PAGE:
-- Title and brief description
-- Authors
-- Overview and credits
-- Listing of contents (units/sessions)
-- Click on specific unit or session to jump ahead
-- "Start" button - begin with first session
--->
+## {data-background-iframe="https://learn.ibots-bonn.de/docs/intro_python_long/03_tabular_data/09_groupby_seaborn/" data-background-interactive="true" data-background-opacity="1"}
 
-<!-- 
-UNIT PAGE:
-- Accessed via sidebar or course landing page
-- Unit overview
-- Lists all sessions within the unit
--->
+## 
 
-<!-- 
-SESSION PAGE:
-- Title and authors displayed
-- Open in JupyterLite - Work in browser
-- Download exercises - Work locally
-- View entire session in browser
-- Solutions hidden by default
-- Expand/Collapse All Solutions button
-- Pagination to navigate between sessions
--->
+<iframe
+    src="https://learn.ibots-bonn.de/docs/intro_python_long/03_tabular_data/09_groupby_seaborn/"
+    width="40%"
+    height="600"
+    style="border:1px solid #ccc; border-radius: 8px;"
+  ></iframe>
 
-## Bye!
+## Interactive Features
+
+### Collapsible solutions
+### Interactive feature for dataframes (xarray) future plans to implement more such features
+### Zoom feature for plots
+### Copy and paste the code
+
+## {data-background-iframe="https://learn.ibots-bonn.de/docs/lfp_analysis/01_ephys_data_visualization/01_visualizing_lfp_spike_and_behavioral_data/" data-background-interactive="true" data-background-opacity="1"}
+
+## Content Features
+
+### Authors Crediting
+### Future Plans to Make the Materials Citable
+
+## {data-background-iframe="https://learn.ibots-bonn.de/docs/spike_analysis/" data-background-interactive="true" data-background-opacity="1"}
+
+## {data-background-iframe="https://learn.ibots-bonn.de/docs/calcium_imaging/" data-background-interactive="true" data-background-opacity="1"}
