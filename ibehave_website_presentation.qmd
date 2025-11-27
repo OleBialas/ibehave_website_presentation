@@ -10,6 +10,13 @@ author:
 date: 2025-11-28
 ---
 
+<!-- #### BEFORE STARTING ####
+SERVE GROUP WEBSITE:
+hugo serve --templateMetrics --cleanDestinationDir
+
+SERVE LERNING WEBSITE:
+python -m http.server -d public 8000
+-->
 ## The iBehave Open Technology Support
 
 ### Improving Neuroscience Software Through Teaching and Collaboration
@@ -42,55 +49,123 @@ You can also see all of our upcoming courses here on the left: For example, ther
 Now I am curious: Who here in the audience has participates in one of our workshops before?
 Okay, and who of you of you has revisited the workshop materials after the workshop was over to look something up?
 
-We weren't satisfied with how we archived our learning materials and made them available. While we open source all of our materials on GitHub, the repositories are focused on individual events. This means that there exist multiple versions of the same course which makes it challenging to understand what the latest version of a given course is, even for ourselves. Today we present you our solution to this challenge: the iBOTS Learning Website
+We weren't satisfied with how we archived our learning materials and made them available. While we open source all of our materials on GitHub, the repositories are focused on individual events. This means that there exist multiple versions of the same course which makes it challenging to understand what the latest version of a given course is, even for ourselves. Today we present you our solution to this challenge which is our new iBOTS Learning Website
 :::
 
-## The iBOTs Learning Website
-### A Place to Learn and Share Knowledge
+## Introducing: the iBOTs Learning Website
+### Self-Paced Learning and Knowledge Sharing
 
+**Goals**
 
-## Getting Started with Learning Platform
-Let's get started
-<!-- 
-GETTING STARTED:
-- "Browse Courses" button on landing page
-- Takes you directly to course list
-- No sign-up required
--->
+:::{.incremental}
+- Highlight our materials and **share** them with iBehave and the wider neuroscience community
+- Make it easy and engaging to **find**, **explore** and **use** the course materials
+- Create a platform for **others** to share their knowledge
+:::
+
+::: {.notes}
+Our goal was to create a single place to highlight all of our course materials and share them with the iBehave researchers but also with the neuroscience community in general because we think these materials are good and we want everyone to profit from them.
+
+We wanted to make it easy for you as a user to find course materials that interest you, explore interactively and download them to use them on your own machine.
+
+And then finally, in the future, we want to turn this site into a proper learning platform that helps others to share their knwoledge as well. So if you have or are developing learning materials that you think deserve more visibility please get in touch with us.
+
+And with that I'm gonna hand the mic over to Sangeetha who is going to give a tour of our site.
+:::
 
 <!-- This is because <iframe> does not show the toc for sessions. -->
-## {data-background-iframe="https://learn.ibots-bonn.de/" data-background-interactive="true" data-background-opacity="1"}
+## {data-background-iframe="http://127.0.0.1:8000" data-background-interactive="true" data-background-opacity="1"}
+::: {.notes}
+Home page and where to access courses (three places: browse courses, navbar, course scroller)
+Course listing (11 couurses at the moment that were tested in live settings and some of you have participated in)
+:::
 
-## User Experience and Accessibility
+## {data-background-iframe="http://127.0.0.1:8000/docs/intro_python_long/03_tabular_data/09_groupby_seaborn/" data-background-interactive="true" data-background-opacity="1"}
 
-### Dark Mode Support
-### Mobile and Tablet Support
+::: {.notes}
+USER EXPERIENCE
+Dark mode support
+:::
 
-## {data-background-iframe="https://learn.ibots-bonn.de/docs/intro_python_long/03_tabular_data/09_groupby_seaborn/" data-background-interactive="true" data-background-opacity="1"}
 
 ## 
 
 <iframe
-    src="https://learn.ibots-bonn.de/docs/intro_python_long/03_tabular_data/09_groupby_seaborn/"
+    src="http://127.0.0.1:8000/docs/intro_python_long/03_tabular_data/09_groupby_seaborn/"
     width="40%"
     height="600"
     style="border:1px solid #ccc; border-radius: 8px;"
   ></iframe>
 
-## Interactive Features
+::: {.notes}
+USER EXPERIENCE
+Mobile device support
+:::
 
-### Collapsible solutions
-### Interactive feature for dataframes (xarray) future plans to implement more such features
-### Zoom feature for plots
-### Copy and paste the code
+## {data-background-iframe="http://127.0.0.1:8000/docs/lfp_analysis/01_ephys_data_visualization/01_visualizing_lfp_spike_and_behavioral_data/" data-background-interactive="true" data-background-opacity="1"}
 
-## {data-background-iframe="https://learn.ibots-bonn.de/docs/lfp_analysis/01_ephys_data_visualization/01_visualizing_lfp_spike_and_behavioral_data/" data-background-interactive="true" data-background-opacity="1"}
+::: {.notes}
+INTERACTIVE FEATURES IN WHILE LEARNING
+Collapsible solutions
+Interactive features like xarray data viewer
+Zoom feature for the plots
+Copy and paste code cells
+:::
 
-## Content Features
+## {data-background-iframe="http://127.0.0.1:8000/docs/spike_analysis/" data-background-interactive="true" data-background-opacity="1"}
 
-### Authors Crediting
-### Future Plans to Make the Materials Citable
+## {data-background-iframe="http://127.0.0.1:8000/docs/calcium_imaging/" data-background-interactive="true" data-background-opacity="1"}
+::: {.notes}
+CONTENT FEATURES
+Crediting authors (main course authors and contributors in authors and credits list. Individual notebooks credits)
+In the future, we plan to make the materials citable 
+:::
 
-## {data-background-iframe="https://learn.ibots-bonn.de/docs/spike_analysis/" data-background-interactive="true" data-background-opacity="1"}
 
-## {data-background-iframe="https://learn.ibots-bonn.de/docs/calcium_imaging/" data-background-interactive="true" data-background-opacity="1"}
+## {data-background-iframe="http://127.0.0.1:8000/docs/intro_python_long/" data-background-interactive="true" data-background-opacity="1"}
+
+::: {.notes}
+Okay so let's say you want to do one of our courses for example the Intro to Python for Scientists.
+
+Currently, there are two different ways of doing this.
+Option 1 is to download the materials and run them on your own machine.
+For this, you have to install the computational environment that contains the software dependencies required for the course.
+If you go to the landing page of the course, you'll see an Installation section with instructions on setting up the environment. 
+We currently support two package managers, pixi and conda - I'm gonna choose pixi because its modern and fast.
+If you are not familar with these tools, we have lessons on how to use them as well!
+
+You click here to download the pixi.toml file that contains a comprehensive description of the environment and run this command to install and activate it.
+Once you have the environment you can simply open a lesson and click the "Download Exercises" button at the top of the page.
+Next, you just need to open the notebook in your editor, select the installed environment and start coding.
+
+If you want to do the lessons without doing any setup we offer an alternative way.
+You can click the "Open in JupyterLite" button to open and interactive notebook where you can write and execute code.
+The cool thing here is that this does not run on some server but actually runs the code pon your machine in the browser, powered by a technology called WebAssembly.
+
+In the future, we want to support additional ways of interacting with our materials like Google Colab or Binder so every user can choose the method they prefer.
+:::
+
+## Thank you for your Attention!
+### We look forward to hearing from you
+
+:::: {.columns}
+
+::: {.column}
+<div style="display: flex; flex-direction: column; align-items: center; font-size: 1.3em;">
+[ibots-bonn.de](learn.ibots-bonn.de)
+{{< qrcode https://ibots-bonn.de width=400 height=400 >}}
+**Group Website**
+</div>
+:::
+
+::: {.column}
+<div style="display: flex; flex-direction: column; align-items: center; font-size: 1.3em;">
+[learn.ibots-bonn.de](learn.ibots-bonn.de)
+{{< qrcode https://learn.ibots-bonn.de  width=400 height=400 >}}
+**Learning Website**
+</div>
+:::
+
+::::
+
+
