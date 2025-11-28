@@ -91,10 +91,21 @@ Home page and where to access courses (three places: browse courses, navbar, cou
 Course listing (11 couurses at the moment that were tested in live settings and some of you have participated in)
 :::
 
+
+## {data-background-iframe="http://127.0.0.1:8000/docs/spike_analysis/" data-background-interactive="true" data-background-opacity="1"}
+::: {.notes}
+CONTENT FEATURES
+Content was tested in live setting 
+Crediting authors (main course authors and contributors in authors and credits list. Individual notebooks are ~1 hour. Authors of the specific notebook)
+Past iterations 
+In the future, we plan to make the materials citable 
+:::
+
 ## {data-background-iframe="http://127.0.0.1:8000/docs/intro_python_long/03_tabular_data/09_groupby_seaborn/" data-background-interactive="true" data-background-opacity="1"}
 
 ::: {.notes}
 USER EXPERIENCE
+Syntax highlighting
 Dark mode support
 :::
 
@@ -117,20 +128,14 @@ Mobile device support
 
 ::: {.notes}
 INTERACTIVE FEATURES IN WHILE LEARNING
-Collapsible solutions
 Interactive features like xarray data viewer
+Jump to different sections directly
 Zoom feature for the plots
+Collapsible solutions
+Expand/Collapse All Solutions
 Copy and paste code cells
 :::
 
-## {data-background-iframe="http://127.0.0.1:8000/docs/spike_analysis/" data-background-interactive="true" data-background-opacity="1"}
-
-## {data-background-iframe="http://127.0.0.1:8000/docs/calcium_imaging/" data-background-interactive="true" data-background-opacity="1"}
-::: {.notes}
-CONTENT FEATURES
-Crediting authors (main course authors and contributors in authors and credits list. Individual notebooks credits)
-In the future, we plan to make the materials citable 
-:::
 
 
 ## {data-background-iframe="http://127.0.0.1:8000/docs/intro_python_long/" data-background-interactive="true" data-background-opacity="1"}
